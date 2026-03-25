@@ -8,7 +8,9 @@ app.use(express.json());
 // Routes
 const textRoutes = require("./routes/textRoutes");
 const toolRoutes = require("./routes/toolRoutes");
+const pdfRoutes = require("./routes/pdfRoutes");
 
+app.use("/api/pdf", pdfRoutes);
 app.use("/api/text", textRoutes);
 app.use("/api/tools", toolRoutes);
 
