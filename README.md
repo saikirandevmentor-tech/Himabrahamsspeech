@@ -16,3 +16,7 @@ jpeg to jpg
 compress pdf
 compress image
 }
+
+07 april the above tools were added
+issues: the pdf library is not installed so the pdf converter tools backend not working 
+next: update the ui properly then check all the tools to work properly
