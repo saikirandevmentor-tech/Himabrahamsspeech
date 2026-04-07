@@ -105,6 +105,72 @@ export default function Home() {
             </li>
           </ul>
         </section>
+        {/* PDF & Conversion Tools */}
+<section className="bg-white dark:bg-zinc-900 shadow-md rounded-xl p-6 border">
+  <h2 className="text-xl font-semibold mb-4">PDF & Conversion Tools</h2>
+
+  <ul className="space-y-2">
+    <li>
+      <Link href="/tools/image-to-pdf" className="text-blue-600 hover:underline">
+        Image to PDF
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/tools/pdf-to-word" className="text-blue-600 hover:underline">
+        PDF to Word
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/tools/pdf-to-image" className="text-blue-600 hover:underline">
+        PDF to Image
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/tools/compress-pdf" className="text-blue-600 hover:underline">
+        Compress PDF
+      </Link>
+    </li>
+  </ul>
+        </section>
+        {/* Image Tools */}
+<section className="bg-white dark:bg-zinc-900 shadow-md rounded-xl p-6 border">
+  <h2 className="text-xl font-semibold mb-4">Image Tools</h2>
+
+  <ul className="space-y-2">
+    <li>
+      <Link href="/tools/jpg-to-png" className="text-blue-600 hover:underline">
+        JPG to PNG
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/tools/png-to-jpg" className="text-blue-600 hover:underline">
+        PNG to JPG
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/tools/jpg-to-jpeg" className="text-blue-600 hover:underline">
+        JPG to JPEG
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/tools/jpeg-to-jpg" className="text-blue-600 hover:underline">
+        JPEG to JPG
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/tools/compress-image" className="text-blue-600 hover:underline">
+        Compress Image
+      </Link>
+    </li>
+  </ul>
+</section>
 
       </div>
 
